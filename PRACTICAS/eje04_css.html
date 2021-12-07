@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo 4 de CSS</title>
-    <link rel="stylesheet" href="CSS/eje04_css.css">
-</head>
-<body>
-      <h1>Este es el ejemplo 4 de  CSS</h1>
-      <h2 style="color: aquamarine; background-color: beige;">Estes es un   H2  </h2>
-      <h2 class="main"> Este tambien es un h2 sin  clase</h2>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejemplo de estilos sin CSS</title>
 
-       <p class="main"> Preparamos una <span> informativa en la cual podrás acceder </span> a todos los comunicados que emitiremos sobre el COVID-19, debido a
-           que desde el 17 marzo se suspenderán todas las actividades universitarias. 
-           Preparamos una sección informativa en la cual podrás acceder a todos los comunicados que emitiremos sobre el COVID-19, debido a
-            que desde el 17 marzo se suspenderán todas las actividades universitarias. 
+		<style type="text/css">
+			/* Todos los elementos de la pagina*/
+			{ font:1em/1.3 Arial, Helvetica, sans-serif; }
 
+			/* Todos los parrafos de la pagina */
+			{ color: #555; }
 
-      </p>
+			/* Todos los párrafos contenidos en #primero */
+			{ color: #336699; }
 
- 
-      <p class="main"> <a href="#"> 1 Lorem Ipsum </a>  es simplemente el texto de relleno de las imprentas y archivos de texto.
-            Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
-           cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó
-           una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
-           No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos 
-           electrónicos, quedando esencialmente igual al original. 
-           fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales 
-           contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
-            como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-      </p> 
+			/* Todos los enlaces la pagina */
+			{ color: #CC3300; }
 
-    
-    <p id=navi> 
-        <span class="main"> Lorem Ipsum </span>  Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-         Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
-        cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó
-        una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
-        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos 
-        electrónicos, quedando esencialmente igual al original. 
-        fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales 
-        contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
-         como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p> 
-    
-    <p> <span class="main"> Hola soy un span </span>
+			/* Los elementos "em" contenidos en #primero */
+			{ background: #FFFFCC; padding: .1em; }
 
-    <p class="principal error resaltar"> Aqui tenemos ejemplo de varias clases </p>
+			/* Todos los elementos "em" de clase "especial" en toda la pagina */
+			{ background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
 
+			/* Elementos "span" contenidos en .normal */
+			{ font-weight: bold; } 
 
-      
-</body>
+		</style>
+	</head>
+
+	<body>
+
+		<div id="primero">
+
+			<p>
+				Cuidar el dinero de los consumidores no es suficiente para Ashifi Gogo. Él ha puesto los ojos en algo mucho más grande: salvar la vida de las
+				personas. Este emprendedor es la mente maestra de la ingeniería que hay detrás del <span><a href="#">Mobile Product Authentication
+					(Autentificación Móvil de Producto o MPA)</a>, una solución de la empresa Sproxil,</span>
+				ubicada en Massachusetts, EE.UU., que permite a los compradores determinar si los productos al menudeo
+				son legítimos, están falsificados o fueron robados,por medio de un <a href="#">teléfono celular</a>
+			</p>
+
+		</div>
+
+		<div class="normal">
+			<p>
+				Simplemente, tienen que rascar la etiqueta de <em class="especial">seguridad de Sproxil</em> –adherida al artículo previamente en la fábrica–
+				para revelar un código. numérico que servirá una sola vez y enviar de manera gratuita dicho código en un mensaje de texto para obtener un número
+				de seguridad para
+				autentificar el origen del producto.
+			</p>
+
+			<p>
+				Aunque la tecnología del MPA trabaja con cualquier mercancía, Sproxil está concentrando sus esfuerzos en el mercado farmacéutico internacional.
+				Y es que de acuerdo con la <em class="especial">Organización Mundial de la Salud (OMS)</em>, asta un 30% de los medicamentos que se venden en naciones
+				emergentes de África,
+				Asia y América Latina son pirata.“Queremos impactar en la vida de cientos de millones de consumidores en mercados en los que no se tienen otros medios
+				para verificar los productos que compra”, dice Ashifi, oriundo de Ghana, quien fundó <a href="#">Sproxil</a> en 2008.
+			</p>
+			<p>
+				Supo de la epidemia de fármacos falsos en el oeste de África mientras estudiaba en Dartmouth College (EE.UU.) y su investigación de doctorado lo llevó
+				a una primera versión del servicio <a href="#">MPA</a>. Al principio, Ashifi enfocó su tecnología en la industria alimentaria, aplicada a los productos orgánicos,
+				pero la respuesta no fue buena. <em>“Los de las tiendas sintieron que era irrelevante y los consumidores estuvieron de acuerdo. Afirmaban que si la marca
+				decía que era orgánico, entonces era orgánico”.</em>
+			</p>
+		</div>
+
+	</body>
 </html>
