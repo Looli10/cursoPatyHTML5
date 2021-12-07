@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 02 JS</title>
+        <!--.getElementsByTagName('p')[0].onclick = alerta;   carga por tag name pero como hay varios 
+          hay que decir  que elemento del arreglo -->
+
+        <!--.getElementsById(uno).onclick = alerta;   carga por id , se le pasa el nombre del ID-->
+
+
+    <SCript>
+        function alerta(){ 
+            alert('hizo clic funcion alerta');
+        }
+       
+    
+        function hacerClic() {
+           
+            document.getElementsByTagName('p')[0].onclick = alerta;   
+            document.getElementById('uno').onclick = alerta;
+        }
+        window.onload = hacerClic
+    </SCript>
+</head>
+<body> 
+    <div>
+     <p id="uno"> Clic al parrafo 1 </p>
+     <p id="dos"> clic al parrafo 2 </p>
+     <button> Clic al boton</button>
+    <input type="button"  value="Clic a segundo boton"> 
+</div>
+</body>
+
+
+</html> 

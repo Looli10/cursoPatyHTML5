@@ -1,0 +1,28 @@
+/* body{
+   background-image: url('../img/escudo.png') ;
+   background-repeat: no-repeat;    
+} */
+
+
+#caja1{
+    background-image:url('../img/help.jpeg');
+    background-position:bottom left;
+    background-repeat: repeat-x; 
+    background-attachment: fixed;
+    border:#6369 dashed
+    }
+
+#caja2{ background-image:url('../img/help.jpeg');
+    background-position:right top;
+
+    background-repeat: no-repeat; 
+    border:#6369 dashed }
+
+#caja3{  background-image:url('../img/help.jpeg');
+    background-position: 50% 50%; 
+    background-repeat:no-repeat; 
+    border:#6369 dashed }
+
+    div{
+        height: 2000px;
+    }

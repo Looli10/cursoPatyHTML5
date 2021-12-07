@@ -1,0 +1,47 @@
+ 
+			
+			#primero{    /*  EL GATO #  SOLO SE PUEDE EXPLICAR A UN ELEMENTO  HACES UN DIV
+                             QUE SE LLAME PRIMERO PERO ES UNICO */
+				position: relative;	
+				border:#777777 solid;
+				width: 900px;
+				/*probar distintos valores con estas propiedades*/
+			}
+			
+			p {
+				position:relative;
+				border:#336699 dashed;
+				/*probar distintos valores con estas propiedades*/
+			}
+			
+            /* ESTA ES UNA CLASE  */
+			.normal {
+				position: static;	
+				border:#CC3300 double;
+				height: 400px;
+				/*probar distintos valores con estas propiedades*/
+			}
+			
+			.normal p {
+				position:fixed;
+                top: 100px;
+                left: 200px;
+				border:#FFCC99 dotted;
+				height:auto;
+				/*probar distintos valores con estas propiedades*/
+			}
+			
+			span, em{
+				position:relative;
+				border:#FF0000 solid;	
+                top: 0.5em;
+                left: 0.5em;
+				/*probar distintos valores con estas propiedades*/
+			}
+            img {
+                position: relative;
+                border:#FF0000 solid;	
+                top: 10em;
+                left: 30em;
+            }
+ 

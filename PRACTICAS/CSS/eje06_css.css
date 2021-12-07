@@ -1,0 +1,52 @@
+ 
+
+    body{
+        margin: 0.5em;
+        padding: 2em;
+        color: rgb(78, 13, 13); 
+        background-image: url('../img/escudo.png') ;
+    }  
+
+    h1{ line-height: 5cm;
+        border-bottom: solid red 3em ;
+    }
+
+p{
+    margin: 3em;
+   /* color: rgb(71, 98, 176); */
+    color: rgb(27%, 68%, 79%);  
+  /*  color: #4762b0; */
+  /*  color: #ABA;  */
+  /*   word-spacing: 1em;  */
+}
+
+/*
+div{margin-top:2em ; 
+      margin-right: 0em; 
+      margin-bottom:10em ;
+       margin-left: 20em; */
+       }
+
+
+
+  div{ margin: 5em 0.5em;
+      padding: 5em 5em;
+      border: 10em;
+      border-top-width: 2px; 
+      border-right-width: 4px; 
+      border-bottom-width: 2px; 
+      border-left-width: 4px; 
+      border-color: sienna;
+      border-style:dashed ; } 
+
+ /* div img { margin: 4.5em; }  */
+
+a{  
+    font-size: 12pt;
+}
+
+span {
+    font-size: 16px;
+    margin: 3em;
+  /*  font-size: 1pc; */
+}
